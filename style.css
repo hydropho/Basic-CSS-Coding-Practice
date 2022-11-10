@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* ================= MY STYLES ================= */
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+/* ================= HEADER ================= */
+header {
+	background-color: lightgrey;
+	width: 100vw;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.head {
+	margin-left: 30px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+/* ================ CONTENT ================ */
+
+.container {
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px 0 40px 0;
+}
+
+/* ================ COLOR ================ */
+.color {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.colorPurple {
+	background-color: purple;
+	width: 50px;
+	height: 50px;
+	border-radius: 6px;
+}
+
+.colorBlue {
+	background-color: blue;
+	width: 100%;
+	height: 50px;
+	border-radius: 6px;
+}
+
+.colorRed {
+	background-color: red;
+	width: 100%;
+	height: 50px;
+	border-radius: 6px;
+}
+
+.colorBlack {
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	border-radius: 6px;
+}
+
+.colorBrown {
+	background-color: brown;
+	width: 100%;
+	height: 50px;
+	border-radius: 6px;
+}
+
+/* ================ ITEM ================ */
+
+.item {
+	width: 35%;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 30px;
+	overflow: hidden;
+	margin: 0px 10px;
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+}
+
+/* ================ DESC ================ */
+
+.description {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin-top: 5%;
+}
+
+.description>* {
+	margin-bottom: 7px;
+}
+
+.description button {
+	margin-bottom: 60px;
+	background-color: pink;
+}
+
+/* ================ FOOTER ================ */
+
+footer {
+	width: 100vw;
+	display: flex;
+	background-color: lightgrey;
+	flex-direction: column;
+}
+
+footer h2 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+footer .links {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 0px;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer li a {
+	text-decoration: none;
+	color: black;
+}
